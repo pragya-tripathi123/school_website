@@ -1,0 +1,242 @@
+body{
+        font-family: "Poppins", Arial, sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+}
+.col-2{
+    text-align: end;
+    padding: 0;
+}
+.col-3{
+    padding: 0;
+}
+
+.backimg{
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("college1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -150.6px;
+    position: relative;
+}
+
+.rows{
+    width: 30%;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.ro h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+.btnc{
+    color: wheat;
+    margin-top: 25px;
+    background-color: #fd5f00;
+    padding: 20px 28px;
+    border-radius: 50px;
+    border: 0px;
+    transition: all 0.2s;
+}
+.btnc:hover{
+    padding: 18px 26px;
+}
+.fa-chalkboard-user{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.fa-school{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+.fa-book{
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+@media screen and (max-width:768px) {
+    .mydiv {
+        display: none;
+    }
+}
+.padd{
+    padding: 10px;
+}
+.icons{
+    background-color: #fd5f00;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para p{
+    color: #666666;
+}
+.hello{
+    text-align: end;
+    padding: 0;
+}
+
+
+
+
+.section3{
+    /* background-color: #ff7621; */
+    background-image: url("college.jpeg");
+    position: relative;
+}
+.contain{
+    padding: 80px;
+}
+.fox_img{
+    height: 350px;
+    width: 550px;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.text strong.number {
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+ .text span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+.datas{
+    padding-top: 50px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250, 129, 54, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.contain{
+    position: relative;
+    z-index: 9;
+}
+
+
+/* ---------------------------image style------------------------------ */
+.img1{
+    background-image: url("img1.webp");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.img2{
+    background-image: url("electric.webp");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.img3{
+    background-image: url("computer.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.img4{
+    background-image: url("electronic.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.icon_para i{
+   color: #fd5f00;
+   font-size: 13px;
+}
+.btnapply{
+    color: white;
+    background-color: #fd5f00;
+    padding: 13px;
+    border-radius: 50px;
+    border: 0px;
+    text-decoration: none;
+}
+.btnapply:hover{
+    background-color: white;
+    color: #fd5f00;
+    border: 2px solid #fd5f00;
+}
+
+.imgc1{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease 0s;
+    object-fit: cover;
+}
+.imgc1 i{
+    color: #fd5f00;
+    
+}
+.imgc1:hover{
+    transform: scale(1.1);
+}
+.imgc1:hover .myicons{
+    display: block;
+}
+.iconss{
+    position: relative;
+}
+.myicons{
+    position: absolute;
+    bottom: 8px;
+    left: 40%;
+    color: #fd5f00;
+    display: none;
+}
+
+.myicons i{
+    margin-right: 8px;
+}
+/* -------------------CONTACT IMAGE-------------------- */
+.blogs{
+   margin-top: 130px;
+}
+.contact-img{
+    background-image: url("contact.jpg");
+    position: relative;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 4%; */
+}
+.contact-f{
+    position: relative;
+    color: white;
+    z-index: 10;
+}
+.blogs_img{
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.students{
+    margin-top: 130px;
+}
+.footer{
+    background-color: #232323;
+    height: 750px;
+    color: white;
+}

@@ -1,9 +1,9 @@
 body{
-        font-family: "Poppins", Arial, sans-serif;
-            background: #fff;
-            font-size: 16px;
-            line-height: 1.8;
-            font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
 }
 .col-2{
     text-align: end;
@@ -14,19 +14,27 @@ body{
 }
 
 .backimg{
-    height: 77vh;
+    /* height: 77vh; */
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     background-image: url("college1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% -150.6px;
+    background-position: 50%;
     position: relative;
+    min-height: 550px;
 }
 
-.rows{
-    width: 30%;
+.fox_design a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.myuniver{
     color: white;
     position: relative;
     z-index: 10;
@@ -40,7 +48,7 @@ body{
     color: wheat;
     margin-top: 25px;
     background-color: #fd5f00;
-    padding: 20px 28px;
+    padding: 20px;
     border-radius: 50px;
     border: 0px;
     transition: all 0.2s;
@@ -61,28 +69,28 @@ body{
     font-size: 2rem;
 }
 @media screen and (max-width:768px) {
-    .mydiv {
-        display: none;
-    }
+    
 }
 .padd{
     padding: 10px;
 }
 .icons{
-    background-color: #fd5f00;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 67px;
+    height: 84px;
+    background: red;
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 0px 43px;
 }
 .para p{
     color: #666666;
 }
 .hello{
-    text-align: end;
     padding: 0;
+    text-align: center;
 }
 
 
@@ -92,6 +100,7 @@ body{
     /* background-color: #ff7621; */
     background-image: url("college.jpeg");
     position: relative;
+    /* background-repeat: no-repeat; */
 }
 .contain{
     padding: 80px;
@@ -163,10 +172,10 @@ body{
    color: #fd5f00;
    font-size: 13px;
 }
-.btnapply{
+.readbtn{
     color: white;
     background-color: #fd5f00;
-    padding: 13px;
+    padding: 10px;
     border-radius: 50px;
     border: 0px;
     text-decoration: none;
@@ -196,6 +205,9 @@ body{
 }
 .iconss{
     position: relative;
+}
+.iconss:hover .myicons{
+    display: block;
 }
 .myicons{
     position: absolute;
@@ -237,6 +249,79 @@ body{
 }
 .footer{
     background-color: #232323;
-    height: 750px;
+    min-height: 750px;
     color: white;
+}
+
+
+
+
+.myuser{
+    color: grey;
+    font-size: 13px;
+}
+.myuser span{
+    margin-right: 8px;
+}
+.message{
+    margin-left: 8px;
+}
+.linksp p{
+    font-size: 14px;
+}
+.linksp p:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+input[type = email]{
+    min-width: 250px;
+    padding: 13px;
+    outline: none;
+    background-color: #343a40;
+    height: 53px;
+    border: none;
+    text-align: center;
+    color: white;
+}
+::placeholder{
+    color: rgb(187, 187, 187);
+    font-weight: 500;
+}
+input[type = submit]{
+    height: 52px;
+    padding: 13px;
+    min-width: 250px;
+    margin-top: 20px;
+    background-color:#5d50c6;
+    outline: none;
+    border: none;
+}
+.submit{
+    color: white;
+}
+.submit:hover{
+    background-color: #fd5f00;
+}
+.connect{
+    margin-top: 50px;
+}
+.iconsforc{
+    margin-top: 35px;
+}
+.iconsforc i{
+    margin-right: 35px;
+    font-size: 22px;
+    transition: all 0.4s;
+}
+
+.iconsforc i:hover{
+    color: #fd5f00;
+    cursor: pointer;
+}
+
+
+.firstn{
+    outline: none;
+    border: none;
 }
